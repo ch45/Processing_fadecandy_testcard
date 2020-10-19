@@ -90,7 +90,7 @@ void text_id_grids() {
   int sat = 255;
   int bri = 255;
   int hue = 0;
-  int size =  (int)(spacing * (boxesDown * ledsDown - 1) / boxesDown);
+  int size =  (int)(spacing * 8 / 7 * (boxesDown * ledsDown - 1) / boxesDown);
   textSize(size);
   for (int y = 0; y < boxesDown; y++) {
     for (int x = 0; x < boxesAcross; x++) {
