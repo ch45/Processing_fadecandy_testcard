@@ -1,0 +1,8 @@
+*.orig
+* - Copy.*
+*.zip
+discards*
+_*
+~$*
+*.autosave
+*~
